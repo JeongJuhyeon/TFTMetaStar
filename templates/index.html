@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>{{ app_name }}</title>
+    <style>
+        div {
+            margin: 5px;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+        }
+        #item_form {
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #submit_button {
+            width: 150px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+<!--    <iframe src="https://docs.google.com/spreadsheets/d/1eEoQuc6X2HtPr3ZuT23rWhTrtU_y0mPGps8elzZzWK4/htmlview"></iframe>-->
+    <form id="item_form">
+        <div>
+            <label for="sword">Swords:</label>
+            <input type="number" id="sword" name="sword" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="vest">Vests:</label>
+            <input type="number" id="vest" name="vest" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="belt">Belts:</label>
+            <input type="number" id="belt" name="belt" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="rod">Rods:</label>
+            <input type="number" id="rod" name="rod" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="cloak">Cloaks:</label>
+            <input type="number" id="cloak" name="cloak" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="bow">Bows:</label>
+            <input type="number" id="bow" name="bow" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="glove">Gloves:</label>
+            <input type="number" id="glove" name="glove" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="tear">Tears:</label>
+            <input type="number" id="tear" name="tear" step="1" value="0" min="0">
+        </div>
+        <div>
+            <label for="spatula">Spatulas:</label>
+            <input type="number" id="spatula" name="spatula" step="1" value="0" min="0">
+        </div>
+        <input id="submit_button" type="submit" value="Get best comp">
+    </form>
+    <h2 id="display_results"></h2>
+    <img src="" alt="" id="comp_image" width="80%" height="100%">
+
+</body>
+<script src="../static/index.js"></script>
+
+</html>
